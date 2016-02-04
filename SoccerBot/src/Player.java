@@ -1,6 +1,7 @@
 
 public class Player {
 	private int id;
+	private String id2;
 	private String name;
 	private long x;
 	private long y;
@@ -10,11 +11,28 @@ public class Player {
 	private String datum_mw;
 	private String marker;
 	
+	private String fullName;
+	private String dateOfBirth;
+	private String height;
+	private String nationality;
+	private String position;
+	private String foot;
+	private String currentClub;
+	private String inTeamSince;
+	private String contractUntill;
+	private String lastContractExtension;
+	
 	public int getId() {
 		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
+	}
+	public String getId2() {
+		return id2;
+	}
+	public void setId2(String id2) {
+		this.id2 = id2;
 	}
 	public String getName() {
 		return name;
@@ -63,6 +81,66 @@ public class Player {
 	}
 	public void setMarker(String marker) {
 		this.marker = marker;
+	}
+	public String getFullName() {
+		return fullName;
+	}
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+	public String getHeight() {
+		return height;
+	}
+	public void setHeight(String height) {
+		this.height = height;
+	}
+	public String getNationality() {
+		return nationality;
+	}
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+	public String getPosition() {
+		return position;
+	}
+	public void setPosition(String position) {
+		this.position = position;
+	}
+	public String getFoot() {
+		return foot;
+	}
+	public void setFoot(String foot) {
+		this.foot = foot;
+	}
+	public String getCurrentClub() {
+		return currentClub;
+	}
+	public void setCurrentClub(String currentClub) {
+		this.currentClub = currentClub;
+	}
+	public String getInTeamSince() {
+		return inTeamSince;
+	}
+	public void setInTeamSince(String inTeamSince) {
+		this.inTeamSince = inTeamSince;
+	}
+	public String getContractUntill() {
+		return contractUntill;
+	}
+	public void setContractUntill(String contractUntill) {
+		this.contractUntill = contractUntill;
+	}
+	public String getLastContractExtension() {
+		return lastContractExtension;
+	}
+	public void setLastContractExtension(String lastContractExtension) {
+		this.lastContractExtension = lastContractExtension;
 	}
 	
 	
